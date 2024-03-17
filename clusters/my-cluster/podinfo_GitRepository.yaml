@@ -8,3 +8,10 @@ spec:
   ref:
     branch: master
   url: https://github.com/stefanprodan/podinfo
+  ignore: |
+    # exclude all
+    /*
+    # include deploy dir
+    !/deploy
+    # exclude non-Kubernetes YAMLs
+    /deploy/**/.yamllint.yaml

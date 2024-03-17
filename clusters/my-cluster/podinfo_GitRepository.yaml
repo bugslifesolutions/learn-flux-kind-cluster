@@ -12,6 +12,6 @@ spec:
     # exclude all
     /*
     # include deploy dir
-    !/deploy
+    !/kustomize
     # exclude non-Kubernetes YAMLs
-    /deploy/**/.yamllint.yaml
+    /kustomize/**/.yamllint.yaml

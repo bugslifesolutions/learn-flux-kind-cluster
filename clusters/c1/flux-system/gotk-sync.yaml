@@ -7,6 +7,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
+  recurseSubmodules: true
   ref:
     branch: main
   secretRef:
@@ -20,7 +21,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./clusters/my-cluster
+  path: ./clusters/c1
   prune: true
   sourceRef:
     kind: GitRepository

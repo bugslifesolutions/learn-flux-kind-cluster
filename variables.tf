@@ -10,3 +10,7 @@ variable "github_org" {
 variable "github_repository" {
   type = string
 }
+
+variable "github_repository_flux_path" {
+  type = string
+}
